@@ -16,3 +16,5 @@ Route::redirect('/','blog');
 Auth::routes();
 
 Route::get('blog', 'Web\BlogController@blog')->name('blog');
+
+Route::get('blog/{slug}','Web\BlogController@post')->name('post');

@@ -72,9 +72,9 @@
             </div>
         </nav>
 
-        <main class="py-4">
+        <main class="album py-5 bg-light">
             @yield('content')
-        </main>
+        </div>
     </div>
 </body>
 </html>
